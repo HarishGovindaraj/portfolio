@@ -6,15 +6,37 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>
+<< /Type /Page
+   /Parent 2 0 R
+   /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >>
+   /MediaBox [0 0 612 792]
+   /Contents 4 0 R
+>>
 endobj
 4 0 obj
-<< /Length 51 >>
+<< /Length 802 >>
 stream
 BT
-/F1 12 Tf
-70 700 Td
-(Harish Govindaraj - Resume Placeholder) Tj
+/F1 14 Tf
+50 720 Td
+14 TL
+(HARISH GOVINDARAJ) Tj T*
+(Full-Stack Developer | 4 Years Experience) Tj T*
+T*
+(Profile Summary:) Tj T*
+(Results-driven Full-Stack Developer with 4 years of experience building, deploying,) Tj T*
+(and maintaining high-performance enterprise applications. Specializes in designing) Tj T*
+(seamless front-end components and developing secure backend APIs.) Tj T*
+T*
+(Technical Skills:) Tj T*
+(- Frontend: Angular, React, HTML5, CSS3, JavaScript, TypeScript, Bootstrap) Tj T*
+(- Backend: Java, Spring Boot, Node.js, Express, RESTful APIs) Tj T*
+(- Databases: PostgreSQL, Oracle SQL, MySQL) Tj T*
+(- Tools & DevOps: Git, Linux, Docker, AWS, Jenkins) Tj T*
+T*
+(Contact Details:) Tj T*
+(Email: contact@harishgovindaraj.dev) Tj T*
+(Website: https://harishgovindaraj.dev) Tj T*
 ET
 endstream
 endobj
@@ -22,11 +44,13 @@ xref
 0 5
 0000000000 65535 f 
 0000000009 00000 n 
-0000000056 00000 n 
-0000000111 00000 n 
-0000000202 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000302 00000 n 
 trailer
-<< /Size 5 >>
+<< /Size 5
+   /Root 1 0 R
+>>
 startxref
-304
+1154
 %%EOF
