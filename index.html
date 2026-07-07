@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio of Harish Govindaraj - Full-Stack Developer with 3.5+ years of experience specializing in Angular, Java, PostgreSQL, and enterprise applications.">
+    <meta name="keywords"
+        content="Harish Govindaraj, Full-Stack Developer, Portfolio, Software Engineer, Chennai, Angular, Java, PostgreSQL, React, Node.js">
+    <meta name="author" content="Harish Govindaraj">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Harish Govindaraj | Full-Stack Developer Portfolio">
+    <meta property="og:description"
+        content="Explore the portfolio of Harish Govindaraj. Full-Stack Developer with 3.5+ years of enterprise-grade application experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://harishgovindaraj.dev">
+
+    <title>Harish Govindaraj | Full-Stack Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 Grid & Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home-top">
+
+    <!-- Sticky Navigation Bar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home-top" class="logo">
+                HG<span>.</span>
+            </a>
+
+            <!-- Pure CSS Navbar Toggle (Checkbox Hack) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home-top" class="nav-item-link">Home</a></li>
+                <li><a href="#about" class="nav-item-link">About</a></li>
+                <li><a href="#skills" class="nav-item-link">Skills</a></li>
+                <li><a href="#experience" class="nav-item-link">Experience</a></li>
+                <li><a href="#projects" class="nav-item-link">Projects</a></li>
+                <li><a href="#education" class="nav-item-link">Education</a></li>
+                <li><a href="#certifications" class="nav-item-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-item-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Animated Background Glows -->
+    <div class="bg-glows">
+        <div class="glow-sphere glow-sphere-1"></div>
+        <div class="glow-sphere glow-sphere-2"></div>
+        <div class="glow-sphere glow-sphere-3"></div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section container" id="home">
+            <div class="row align-items-center min-vh-100 py-5">
+                <!-- Left Side: Copy -->
+                <div class="col-lg-6 hero-content">
+                    <span class="hero-pretitle">Hi I'm</span>
+                    <h1 class="hero-title">
+                        HARISH <br>
+                        <span class="gradient-text">GOVINDARAJ</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Full Stack Developer</h2>
+                    <p class="hero-desc">
+                        Full-Stack Developer with 4 years of experience building scalable enterprise applications,
+                        improving performance and maintainability using Angular, React, Node.js, and Oracle SQL. Skilled
+                        in RESTful API development, front-end performance optimization, and Linux-based deployments.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="assets/resume.pdf" class="btn btn-primary" download="Harish_Govindaraj_Resume.pdf">
+                            <i class="bi bi-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="bi bi-chat-dots"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: CSS Illustration -->
+                <div class="col-lg-6 hero-illustration-wrapper">
+                    <div class="css-illustration-container">
+                        <!-- Orbiting & Rotating Glowing Rings -->
+                        <div class="ill-ring ring-outer"></div>
+                        <div class="ill-ring ring-inner"></div>
+
+                        <!-- Floating Tech Badges (CSS-only) -->
+                        <div class="tech-badge badge-angular" title="Angular">
+                            <i class="bi bi-braces"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="tech-badge badge-react" title="React">
+                            <i class="bi bi-cpu"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-badge badge-node" title="Node.js">
+                            <i class="bi bi-server"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-badge badge-oracle" title="Oracle">
+                            <i class="bi bi-database"></i>
+                            <span>Oracle</span>
+                        </div>
+                        <div class="tech-badge badge-postgres" title="PostgreSQL">
+                            <i class="bi bi-database-fill-gear"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-badge badge-bootstrap" title="Bootstrap">
+                            <i class="bi bi-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+
+                        <!-- Glassmorphic Mock Code Editor -->
+                        <div class="mock-editor">
+                            <div class="editor-header">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                                <span class="editor-title">app.component.ts</span>
+                            </div>
+                            <div class="editor-body">
+                                <div class="line"><span class="keyword">import</span> { Component } <span
+                                        class="keyword">from</span> <span class="string">'@angular/core'</span>;</div>
+                                <div class="line"></div>
+                                <div class="line"><span class="decorator">@Component</span>({</div>
+                                <div class="line indent-1">selector: <span class="string">'app-developer'</span>,</div>
+                                <div class="line indent-1">template: <span class="string">'&lt;portfolio /&gt;'</span>,
+                                </div>
+                                <div class="line indent-1">styleUrls: [<span class="string">'./style.css'</span>]</div>
+                                <div class="line">})</div>
+                                <div class="line"><span class="keyword">export</span> <span class="keyword">class</span>
+                                    <span class="type-class">DeveloperComponent</span> {
+                                </div>
+                                <div class="line indent-1">name = <span class="string">'Harish Govindaraj'</span>;</div>
+                                <div class="line indent-1">experience = <span class="number">4</span>; <span
+                                        class="comment">// years</span></div>
+                                <div class="line indent-1">role = <span class="string">'Full-Stack Developer'</span>;
+                                </div>
+                                <div class="line indent-1">skills = [<span class="string">'Angular'</span>, <span
+                                        class="string">'Java'</span>, <span class="string">'SQL'</span>];</div>
+                                <div class="line">}</div>
+                            </div>
+                        </div>
+
+                        <!-- Decorative floating grids -->
+                        <div class="floating-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- About Me Section -->
+        <section class="about-section container" id="about">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="row gy-5 align-items-center">
+                <!-- Summary Column -->
+                <div class="col-lg-6">
+                    <div class="about-details-card glass-card">
+                        <h3 class="card-subtitle">Professional Summary</h3>
+                        <p class="about-text">
+                            I am a results-driven Full-Stack Developer with over 4 years of experience building,
+                            deploying, and maintaining high-performance enterprise applications. I specialize in
+                            designing seamless front-end components and developing secure backend APIs.
+                        </p>
+
+                        <div class="about-meta-grid">
+                            <div class="meta-item">
+                                <i class="bi bi-briefcase-fill"></i>
+                                <div>
+                                    <span class="meta-label">Current Company</span>
+                                    <span class="meta-value">Bahwan Cybertek</span>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <div>
+                                    <span class="meta-label">Location</span>
+                                    <span class="meta-value">Chennai, TN, India</span>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <i class="bi bi-award-fill"></i>
+                                <div>
+                                    <span class="meta-label">Specialization</span>
+                                    <span class="meta-value">Enterprise B2B Portals & Fleet Tracking</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistics Cards Column -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <!-- Stat 1 -->
+                        <div class="col-sm-6">
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="bi bi-clock-history"></i>
+                                </div>
+                                <span class="stat-number">3.5+</span>
+                                <span class="stat-title">Years Experience</span>
+                                <span class="stat-desc">Building enterprise apps</span>
+                            </div>
+                        </div>
+
+                        <!-- Stat 2 -->
+                        <div class="col-sm-6">
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="bi bi-lightning-charge-fill"></i>
+                                </div>
+                                <span class="stat-number">20%</span>
+                                <span class="stat-title">Performance Improvement</span>
+                                <span class="stat-desc">Page load times optimized</span>
+                            </div>
+                        </div>
+
+                        <!-- Stat 3 -->
+                        <div class="col-sm-6">
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                </div>
+                                <span class="stat-number">30%</span>
+                                <span class="stat-title">Query Optimization</span>
+                                <span class="stat-desc">DB response times cut</span>
+                            </div>
+                        </div>
+
+                        <!-- Stat 4 -->
+                        <div class="col-sm-6">
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="bi bi-boxes"></i>
+                                </div>
+                                <span class="stat-number">Multiple</span>
+                                <span class="stat-title">Enterprise Projects</span>
+                                <span class="stat-desc">Successfully delivered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Technical Skills Section -->
+        <section class="skills-section container" id="skills">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="row g-4">
+                <!-- Skill Category 1: Languages -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper lang-icon">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3>Languages</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> JavaScript</li>
+                            <li><span class="skill-dot"></span> TypeScript</li>
+                            <li><span class="skill-dot"></span> Java</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2: Frontend -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper front-icon">
+                                <i class="bi bi-window-sidebar"></i>
+                            </div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> Angular</li>
+                            <li><span class="skill-dot"></span> React</li>
+                            <li><span class="skill-dot"></span> Bootstrap</li>
+                            <li><span class="skill-dot"></span> ExtJS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3: Backend -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper back-icon">
+                                <i class="bi bi-cpu-fill"></i>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> Node.js</li>
+                            <li><span class="skill-dot"></span> REST APIs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Category 4: Databases -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper db-icon">
+                                <i class="bi bi-database-fill"></i>
+                            </div>
+                            <h3>Databases</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> Oracle SQL</li>
+                            <li><span class="skill-dot"></span> PostgreSQL</li>
+                            <li><span class="skill-dot"></span> MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Category 5: Cloud & Tools -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper tools-icon">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h3>Cloud & Tools</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> AWS</li>
+                            <li><span class="skill-dot"></span> Oracle OCI</li>
+                            <li><span class="skill-dot"></span> Git / SVN</li>
+                            <li><span class="skill-dot"></span> Linux / Bash</li>
+                            <li><span class="skill-dot"></span> Figma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill Category 6: Practices -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon-wrapper practices-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <h3>Practices</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span class="skill-dot"></span> Agile / Scrum</li>
+                            <li><span class="skill-dot"></span> CI/CD</li>
+                            <li><span class="skill-dot"></span> Responsive Design</li>
+                            <li><span class="skill-dot"></span> Testing & Debugging</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Experience Section -->
+        <section class="experience-section container" id="experience">
+            <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+
+            <div class="vertical-timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="timeline-card-wrapper">
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-card-header">
+                                <div>
+                                    <h3 class="company-name">Bahwan Cybertek</h3>
+                                    <h4 class="job-role">Software Engineer</h4>
+                                </div>
+                                <div class="timeline-period">
+                                    <span class="badge-period">Apr 2024 – Present</span>
+                                    <span class="job-location"><i class="bi bi-geo-alt"></i> Chennai, TN</span>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <ul class="resp-list">
+                                    <li><i class="bi bi-arrow-right-short text-primary"></i> Developed enterprise-grade
+                                        Angular applications integrated with Java backends and PostgreSQL databases.
+                                    </li>
+                                    <li><i class="bi bi-arrow-right-short text-primary"></i> Built and integrated
+                                        RESTful APIs to support scalable microservices-based backend architecture.</li>
+                                    <li><i class="bi bi-arrow-right-short text-primary"></i> Optimized database queries
+                                        resulting in ~30% improvement in response time.</li>
+                                    <li><i class="bi bi-arrow-right-short text-primary"></i> Collaborated in Agile/Scrum
+                                        environment to deliver production-ready features on schedule.</li>
+                                </ul>
+                                <div class="tech-tags mt-3">
+                                    <span class="tag">Angular</span>
+                                    <span class="tag">Java</span>
+                                    <span class="tag">PostgreSQL</span>
+                                    <span class="tag">REST APIs</span>
+                                    <span class="tag">Microservices</span>
+                                    <span class="tag">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="timeline-card-wrapper">
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-card-header">
+                                <div>
+                                    <h3 class="company-name">Finan Consulting LLP</h3>
+                                    <h4 class="job-role">Front-End Developer</h4>
+                                </div>
+                                <div class="timeline-period">
+                                    <span class="badge-period">Nov 2021 – Mar 2024</span>
+                                    <span class="job-location"><i class="bi bi-geo-alt"></i> Chennai, TN</span>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <ul class="resp-list">
+                                    <li><i class="bi bi-arrow-right-short text-secondary"></i> Developed responsive UI
+                                        components using JavaScript, improving user experience across devices.</li>
+                                    <li><i class="bi bi-arrow-right-short text-secondary"></i> Optimized front-end
+                                        performance, reducing page load time by ~20% through code splitting and asset
+                                        optimization.</li>
+                                    <li><i class="bi bi-arrow-right-short text-secondary"></i> Collaborated with
+                                        cross-functional teams to design and implement scalable UI architecture.</li>
+                                    <li><i class="bi bi-arrow-right-short text-secondary"></i> Created UI/UX prototypes
+                                        using Figma to improve user interaction workflows.</li>
+                                </ul>
+                                <div class="tech-tags mt-3">
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Responsive UI</span>
+                                    <span class="tag">Performance Tuning</span>
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Projects Section -->
+        <section class="projects-section container" id="projects">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="project-card glass-card d-flex flex-column">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                            <h3 class="project-title">TM and Fleet</h3>
+                        </div>
+                        <p class="project-description">
+                            Terminal Manager & Fleet Tracking system built to handle high-volume cargo routing, live
+                            location monitoring, and dispatch optimization.
+                        </p>
+                        <div class="project-highlights">
+                            <span class="highlight-title">Highlights:</span>
+                            <ul>
+                                <li>Fleet tracking and terminal operations</li>
+                                <li>Operational efficiency improved by ~20%</li>
+                                <li>Integrated Java and PostgreSQL backend</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags mt-auto">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="project-card glass-card d-flex flex-column">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="bi bi-fuel-pump"></i>
+                            </div>
+                            <h3 class="project-title">NIIMS</h3>
+                        </div>
+                        <p class="project-description">
+                            A high-availability Fuel Booking B2B Portal enabling automated bulk fuel booking, inventory
+                            status audits, and customer transaction logging.
+                        </p>
+                        <div class="project-highlights">
+                            <span class="highlight-title">Highlights:</span>
+                            <ul>
+                                <li>Bulk fuel booking management</li>
+                                <li>B2B customer workflow optimization</li>
+                                <li>Built with ExtJS and Oracle SQL</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags mt-auto">
+                            <span class="tag">ExtJS</span>
+                            <span class="tag">Oracle SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="project-card glass-card d-flex flex-column">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <h3 class="project-title">Kriya Hub</h3>
+                        </div>
+                        <p class="project-description">
+                            A streamlined Employee Time-Tracking Portal for managing timesheets, resource allocation,
+                            and project timeline visualization.
+                        </p>
+                        <div class="project-highlights">
+                            <span class="highlight-title">Highlights:</span>
+                            <ul>
+                                <li>Employee management and timesheets</li>
+                                <li>RESTful APIs for project tracking</li>
+                                <li>Full MERN stack implementation</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags mt-auto">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Education Section -->
+        <section class="education-section container" id="education">
+            <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="education-card glass-card">
+                        <div class="edu-icon-col">
+                            <div class="edu-icon">
+                                <i class="bi bi-mortarboard-fill"></i>
+                            </div>
+                        </div>
+                        <div class="edu-content-col">
+                            <div class="edu-header">
+                                <div>
+                                    <h3 class="degree-title">B.Tech, Information Technology</h3>
+                                    <h4 class="institute-name">Kalasalingam Academy of Research and Education</h4>
+                                </div>
+                                <div class="edu-meta">
+                                    <span class="edu-period">2016 – 2020</span>
+                                    <span class="edu-location"><i class="bi bi-geo-alt"></i> Virudhunagar, TN</span>
+                                </div>
+                            </div>
+                            <p class="edu-desc">
+                                Gained foundational knowledge in software engineering, database management systems,
+                                network protocols, and object-oriented programming. Participated in multiple tech
+                                symposia and built project prototypes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Certifications Section -->
+        <section class="certifications-section container" id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="row g-4">
+                <!-- Cert 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card glass-card">
+                        <div class="cert-glow"></div>
+                        <div class="cert-icon-wrapper">
+                            <i class="bi bi-patch-check-fill"></i>
+                        </div>
+                        <h3 class="cert-name">Front-End Development</h3>
+                        <p class="cert-issuer">Udemy</p>
+                        <div class="cert-badge">HTML/CSS/JS</div>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card glass-card">
+                        <div class="cert-glow"></div>
+                        <div class="cert-icon-wrapper">
+                            <i class="bi bi-shield-fill-check"></i>
+                        </div>
+                        <h3 class="cert-name">IT Service Management</h3>
+                        <p class="cert-issuer">ISO/IEC 20000-1</p>
+                        <div class="cert-badge">Standards & ITIL</div>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card glass-card">
+                        <div class="cert-glow"></div>
+                        <div class="cert-icon-wrapper">
+                            <i class="bi bi-cloud-check-fill"></i>
+                        </div>
+                        <h3 class="cert-name">Oracle Cloud Essentials</h3>
+                        <p class="cert-issuer">Oracle</p>
+                        <div class="cert-badge">OCI Platform</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Contact Section -->
+        <section class="contact-section container" id="contact">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-grid">
+                <!-- Card 1: Email -->
+                <a href="mailto:harish0516@gmail.com" class="contact-card glass-card">
+                    <div class="contact-icon email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <span class="contact-label">Email Me</span>
+                    <span class="contact-value">harish0516@gmail.com</span>
+                </a>
+
+                <!-- Card 2: Phone -->
+                <a href="tel:+919500404377" class="contact-card glass-card">
+                    <div class="contact-icon phone">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <span class="contact-label">Call Me</span>
+                    <span class="contact-value">+91 9500404377</span>
+                </a>
+
+                <!-- Card 3: LinkedIn -->
+                <a href="https://linkedin.com/in/harish-govindaraj-379629151" target="_blank" rel="noopener noreferrer"
+                    class="contact-card glass-card">
+                    <div class="contact-icon linkedin">
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">harish-govindaraj-379629151</span>
+                </a>
+
+                <!-- Card 4: Location -->
+                <div class="contact-card glass-card">
+                    <div class="contact-icon location">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <span class="contact-label">Location</span>
+                    <span class="contact-value">Chennai, Tamil Nadu, India</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home-top" class="footer-logo">HG<span>.</span></a>
+                <p>&copy; 2026 Harish Govindaraj. All rights reserved.</p>
+            </div>
+
+            <div class="footer-center">
+                <p>Designed with <i class="bi bi-heart-fill text-accent animate-pulse"></i> by Harish Govindaraj</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#home-top" class="back-to-top-btn" aria-label="Back to top">
+                    <i class="bi bi-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
