@@ -855,7 +855,7 @@ ul {
     box-shadow: var(--glow-accent);
 }
 
-.stat-card:nth-child(even) .stat-icon-wrapper {
+.col-sm-6:nth-child(even) .stat-card .stat-icon-wrapper {
     background: rgba(123, 97, 255, 0.1);
     border-color: rgba(123, 97, 255, 0.2);
     color: var(--secondary);
@@ -962,11 +962,11 @@ ul {
 }
 
 /* Color dot overrides according to context card style */
-.skill-card:nth-child(2) .skill-dot { background-color: var(--primary); box-shadow: var(--glow-primary); }
-.skill-card:nth-child(3) .skill-dot { background-color: #32CC70; box-shadow: 0 0 8px #32CC70; }
-.skill-card:nth-child(4) .skill-dot { background-color: var(--secondary); box-shadow: var(--glow-secondary); }
-.skill-card:nth-child(5) .skill-dot { background-color: #FF9F1C; box-shadow: 0 0 8px #FF9F1C; }
-.skill-card:nth-child(6) .skill-dot { background-color: var(--accent); box-shadow: var(--glow-accent); }
+.skills-section .row > div:nth-child(2) .skill-dot { background-color: var(--primary); box-shadow: var(--glow-primary); }
+.skills-section .row > div:nth-child(3) .skill-dot { background-color: #32CC70; box-shadow: 0 0 8px #32CC70; }
+.skills-section .row > div:nth-child(4) .skill-dot { background-color: var(--secondary); box-shadow: var(--glow-secondary); }
+.skills-section .row > div:nth-child(5) .skill-dot { background-color: #FF9F1C; box-shadow: 0 0 8px #FF9F1C; }
+.skills-section .row > div:nth-child(6) .skill-dot { background-color: var(--accent); box-shadow: var(--glow-accent); }
 
 /* =============================================================================
    10. EXPERIENCE TIMELINE
@@ -1183,7 +1183,7 @@ ul {
     box-shadow: var(--glow-secondary);
 }
 
-.project-card:nth-child(2) .project-icon {
+.projects-section .row > div:nth-child(2) .project-card .project-icon {
     background: rgba(0, 217, 255, 0.1);
     border-color: rgba(0, 217, 255, 0.2);
     color: var(--primary);
@@ -1370,14 +1370,14 @@ ul {
     box-shadow: var(--glow-accent);
 }
 
-.cert-card:nth-child(2) .cert-icon-wrapper {
+.certifications-section .row > div:nth-child(2) .cert-card .cert-icon-wrapper {
     background: rgba(123, 97, 255, 0.08);
     border-color: rgba(123, 97, 255, 0.15);
     color: var(--secondary);
     box-shadow: var(--glow-secondary);
 }
 
-.cert-card:nth-child(3) .cert-icon-wrapper {
+.certifications-section .row > div:nth-child(3) .cert-card .cert-icon-wrapper {
     background: rgba(0, 217, 255, 0.08);
     border-color: rgba(0, 217, 255, 0.15);
     color: var(--primary);
@@ -2022,6 +2022,7 @@ button:focus-visible {
 /* Layout Utilities */
 .w-full { width: 100%; }
 .h-full { height: 100%; }
+.min-vh-100 { min-height: 100vh; }
 .d-flex { display: flex; }
 .flex-column { flex-direction: column; }
 .align-items-center { align-items: center; }
